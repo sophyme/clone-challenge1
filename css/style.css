@@ -1,0 +1,8 @@
+/* google font */
+@import "main.css";
+@import "detail.css";
+
+body {
+  width: 760px;
+  height: 1630px;
+}
