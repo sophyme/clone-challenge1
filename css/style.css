@@ -1,4 +1,5 @@
-/* google font */
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap");
+@import "reset.css";
 @import "main.css";
 @import "detail.css";
 
