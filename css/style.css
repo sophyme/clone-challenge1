@@ -3,7 +3,16 @@
 @import "main.css";
 @import "detail.css";
 
+* {
+  box-sizing: border-box;
+}
 body {
-  width: 760px;
-  height: 1630px;
+  border: 10px solid #13093a;
+  border-radius: 60px;
+  padding-top: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
