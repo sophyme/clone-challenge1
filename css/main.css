@@ -40,3 +40,25 @@
   background-color: white;
   color: #333333;
 }
+
+.main {
+  margin: 0px 12px 12px 12px;
+  padding: 20px;
+  height: 50%;
+  border-radius: 50px;
+  background-color: white;
+}
+.main__header,
+.header__user .userform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+.main__header {
+  margin: 15px 0px;
+}
+.header__user img {
+  width: 50px;
+  border-radius: 50%;
+}
