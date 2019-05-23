@@ -86,13 +86,12 @@
   margin-bottom: 12px;
 }
 
-.main__content .content__image
-img {
-  border-radius: 10%:
+.main__content .content__image img, .main__content.content__image img{
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  border-radius: 10%:
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 .content__image img {
@@ -133,7 +132,8 @@ img {
 .footer .nav__sec {
     width: 50%;
 }
-.nav__sec .d-icon i{
+.nav__sec .d-icon i
+{
     display: flex;
     justify-content: center;
     align-items: center;

@@ -14,6 +14,14 @@
   margin-right: 15px;
   font-size: 25px;
 }
+/* .mainimage img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 10%:
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+} */
 .reply {
     margin: 0;
   padding: 15px 7px 7px 7px;
@@ -51,7 +59,25 @@
 .footer {
     z-index:-1;
 }
+.footer__input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 30px;
+    padding: 7px;
+}
 .footer__input img {
-  width: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+}
+.footer__input .input {
+    border: 0;
+    opacity: 0.7;
+}
+.footer__input>.input__icon {
+    width: 30px;
+    height: 20px;
 }
