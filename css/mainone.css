@@ -28,7 +28,7 @@
     display: none;
 }
 .friends__list .friend {
-  padding-right: 35px;
+  margin-right: 35px;
 }
 .friends__list img {
   width: 60px;
@@ -116,10 +116,10 @@
 .footer__form.footer {
     background-color: white;
     width: 100%;
-    height: 65px;
+    height: 80px;
     padding: 20px;
     border-radius: 25px 25px 50px 50px;;
-    box-shadow: -12px 25px 50px 0px rgba(0, 0, 0, 0.25);
+     box-shadow: 5px -10px 50px 0px rgba(0, 0, 0, 0.25);
 }
 .footer__form.footer i {
     font-size: 20px;
@@ -141,7 +141,9 @@
     height: 37px;
     border-radius: 25px;
     background-color: rgb(35, 198, 130);
-    text-align: center;
-    vertical-align: middle;    
     color: white;
+}
+
+.friend:hover {
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.25);
 }
