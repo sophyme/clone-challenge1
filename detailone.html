@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Current page</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/styleone.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body>
+<body class="body">
     <main class="main bg-form">
         <div class="main__header">
             <div class="header__column">
-                <a href="index.html">
+                <a href="mainone.html">
                     <i class="fas fa-arrow-left"></i>
                 </a>
                 <img src="./image/user.jpg"></img>
@@ -26,18 +26,22 @@
                 <i class="fas fa-ellipsis-h"></i>
             </div>
         </div>
-        <div class="main__content" >
-            <img src="./image/upload.jpg"></img>
+        <div class="main__content">
+            <a href="detailone.html" class="content__image">
+                <img src="./image/upload.jpg"></img>
+            </a>
         </div>
-        <div class="main__content-info">
-            <div class="content__info-column">
-                <i class="far fa-heart">2,515</i>
-                <i class="far fa-comment-dots">350</i>
+            <div class="main__content-info">
+                <div class="content__info-column">
+                    <i class="far fa-heart"></i>
+                    <span class="user__bottom-text">2,515</span>
+                    <i class="far fa-comment-dots"></i>
+                    <span class="user__bottom-text">350</span>
+                </div>
+                <div class="content__info-column">
+                    <i class="far fa-bookmark"></i>
+                </div>
             </div>
-            <div class="content__info-column">
-                <i class="far fa-bookmark"></i>
-            </div>
-        </div>
     </main>
     <section class="reply bg-form">
         <ul class="reply">

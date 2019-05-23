@@ -1,0 +1,12 @@
+.body {
+  padding-top: 0;
+}
+.main.bg-form {
+  margin: 0px;
+  border-radius: 38px;
+}
+
+.header__column a > i {
+  margin-right: 15px;
+  font-size: 25px;
+}
