@@ -48,7 +48,7 @@
   color: #333333;
 }
 
-.main {
+.main, .reply {
   margin: 10px 8px 8px 8px;
   padding: 15px;
   height: 50%;
@@ -65,13 +65,16 @@
   justify-content: space-between;
   align-items: center;
 }
-.header__column img {
+.header__column img{
   width: 40px;
   border-radius: 50%;
   margin-right: 10px;
 }
-.header__user .user__name {
+.header__user .user__name{
   display: block;
+}
+.name {
+    font-weight: bold;
 }
 .header__user .user__bottom-text {
   font-size: 13px;
@@ -83,7 +86,7 @@
   margin-bottom: 12px;
 }
 
-.main__content .content__image,
+.main__content .content__image
 img {
   border-radius: 10%:
   margin-top: 10px;

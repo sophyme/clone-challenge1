@@ -1,12 +1,57 @@
 .body {
   padding-top: 0;
 }
-.main.bg-form {
+.bg-form {
   margin: 0px;
+  margin-bottom: 12px;
   border-radius: 38px;
+}
+.reply.bg-form {
+    margin-bottom: 0;
 }
 
 .header__column a > i {
   margin-right: 15px;
   font-size: 25px;
+}
+.reply {
+    margin: 0;
+  padding: 15px 7px 7px 7px;
+
+}
+.reply__column {
+  display: flex;
+  justify-content: flex-start
+  align-items: center;
+  margin-bottom: 15px;
+}
+.reply__column img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  top:0;
+}
+.reply__friend span{
+  display: block;
+  margin-bottom:8px;
+}
+.reply__friend .reply__comment {
+    font-size: 12px;
+    color: #9c9595;
+}
+.reply__friend .reply__icon {
+    font-size: 8px;
+    color: #9c9595;
+}
+.reply__icon i {
+    margin-right: 8px;
+}
+/* footer */
+.footer {
+    z-index:-1;
+}
+.footer__input img {
+  width: 50px;
+  border-radius: 50%;
 }
