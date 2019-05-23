@@ -92,10 +92,10 @@
   margin-right: auto;
   width: 100%;
   border-radius: 10%:
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 .content__image img {
     border-radius: 5%;
+    box-shadow: 5px -10px 60px 0px rgba(0, 0, 0, 0.25);
 }
 .main__content-info {
   padding: 10px 23px 0px 23px;
@@ -119,7 +119,7 @@
     height: 80px;
     padding: 20px;
     border-radius: 25px 25px 50px 50px;;
-     box-shadow: 5px -10px 50px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 5px -10px 60px 0px rgba(0, 0, 0, 0.25); */
 }
 .footer__form.footer i {
     font-size: 20px;

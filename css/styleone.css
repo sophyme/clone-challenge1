@@ -12,6 +12,7 @@ body {
   padding-top: 35px;
   background-color: #edf0f6;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 a {
