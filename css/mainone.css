@@ -193,3 +193,52 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Media Quary */
+.bigScreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: block;
+  font-size: 4em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px;
+  display: none;
+  z-index: 4;
+  border-radius: 50px;
+}
+.bigScreen__text {
+  animation: bigScreenText 1s ease-in-out infinite;
+}
+@keyframes bigScreenText {
+  0%{
+    transform:translateY(10%);
+    color: black;
+  }
+  25% {
+    color: #ffcccc;
+  }
+  50%{
+    transform:translateY(90%);
+    color: #cc99ff;
+  }
+  75% {
+    color: #99ccff
+  }
+  100%{
+    transform:translateY(10%);
+    color: #99ffcc
+  }
+}
+@media screen and (min-width:460px) {
+  .bigScreen {
+    display: flex;
+  }
+}
