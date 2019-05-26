@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Grand+Hotel&display=swap");
 @import "mainone.css";
 @import "detailone.css";
+@import "nav-bar.css";
+@import "media-quary";
 
 * {
   box-sizing: border-box;
