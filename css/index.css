@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3c148;
+}
+.box {
+  background-color: #c33949;
+  color: #eae8e4;
+  font-size: 2em;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
